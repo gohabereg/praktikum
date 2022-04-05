@@ -7,6 +7,9 @@ import SignInPage from "./pages/SignIn";
 import ProfilePage from "./pages/Profile";
 import AuthController from "./controllers/AuthController";
 
+/**
+ * Startup the app
+ */
 document.addEventListener('DOMContentLoaded', async () => {
   Object.values(components).forEach(component => registerComponent(component.default));
 
