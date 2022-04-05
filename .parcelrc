@@ -1,0 +1,8 @@
+{
+  "extends": "@parcel/config-default",
+  "transformers": {
+    "*.hbs": ["@anikin/parcel-transformer-handlebars-precompile"],
+    "*.pug": ["parcel-transformer-pug-precompile"]
+  },
+  "resolvers": ["@parcel/resolver-glob", "..."]
+}
