@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 WORKDIR /var/www
 
-COPY package*.json .
+COPY package*.json ./
 
 RUN npm install
 
